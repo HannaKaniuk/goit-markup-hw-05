@@ -442,6 +442,51 @@
             <use href="./images/icons.svg#icon-vector"></use>
           </svg>
         </button>
+        <form class="form" autocomplete="off">
+          <fieldset class="form-group">
+            <legend class="group-title">
+              Leave your contacts and we will call you back
+            </legend>
+            <label class="form-label">
+              Name
+              <div>
+                <svg class="icon-modal">
+                  <use href="./images/icons.svg#icon-person"></use>
+                </svg>
+                <input type="text" name="username" class="input-sctn" />
+              </div>
+            </label>
+            <label class="form-label">
+              Phone
+              <input type="phone" name="phone" class="input-sctn" />
+            </label>
+            <label class="form-label"
+              >Email
+              <input type="email" name="email" class="input-sctn" />
+            </label>
+            <label class="form-label">
+              Comment
+              <textarea
+                class="form-input"
+                name="comment"
+                placeholder="Text input"
+                rows="5"
+              ></textarea>
+            </label>
+            <label class="form-group-inpt">
+              <input
+                type="checkbox"
+                class="form-inpt"
+                name="policy"
+                value="I accept the terms and conditions of the Privacy Policy"
+              />
+              I accept the terms and conditions of the Privacy Policy
+            </label>
+            <label class="form-btn">
+              <button type="submit" class="form-button">Send</button>
+            </label>
+          </fieldset>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
