@@ -680,14 +680,7 @@ img {
 .checkbox {
   margin-bottom: 24px;
 }
-.modal-comment {
-  color: var(--subtle-text);
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.16;
-  letter-spacing: 0.04em;
-}
+
 .text-modal {
   font-size: 12px;
   line-height: 1.17;
