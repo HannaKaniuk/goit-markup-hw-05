@@ -500,6 +500,9 @@ img {
 }
 
 /* modal */
+.container-form {
+  margin-left: 80px;
+}
 .container-modal {
   position: fixed;
   top: 0;
@@ -562,7 +565,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--white-background);
-  margin-left: 80px;
 }
 .form-label {
   display: flex;
@@ -579,7 +581,7 @@ img {
   font-size: 12px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  margin-left: 80px;
+
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   color: var(--white-background);
@@ -728,6 +730,9 @@ input:checked + label .text-mdl {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-left: auto;
   margin-right: auto;
+}
+.input-checkbox {
+  border-color: var(--primary-brand);
 }
 /* portfolio */
 
